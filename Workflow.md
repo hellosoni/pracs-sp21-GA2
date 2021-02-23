@@ -16,7 +16,6 @@ echo "This is the repository of Graded Assignment2" > README.md
 git status
 git add README.md
 git status
-git add
 git commit -m "Create README file"
 git status
 
@@ -28,13 +27,16 @@ mkdir FASTQ
 cd FASTQ
 cp  /fs/ess/PAS1855/data/week05/fastq/*.fastq .
 ls
-git add
+git add /fs/ess/PAS1855/users/nghi/week06/pracs-sp21-GA2/data/FASTQ/*
 git commit -m "Copy fastq files"
+git status
+
 
 #Make gitignore file to ignore fastq files:
 echo "*.fastq" >> .gitignore
 git add .gitignore
 git commit -m "Added a gitignore file"
+git status
 
 #Load the Conda module at OSC and create a Conda environment for Cutadapt
 module load python/3.6-conda5.2
@@ -53,8 +55,9 @@ cutadapt --version
 #export Cutadapt environment
 conda env export -n Cutadapt > Cutadapt.yml
 source deactivate
-git add 
+git add Cutadapt.yml
 git commit -m "Load the Conda module and create a Conda environment for Cutadapt and create YAML file"
+git status
 ```
 
 ##Cutadapt script for one sample
