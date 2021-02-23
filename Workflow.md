@@ -77,8 +77,10 @@ ls -lh $output_dir
 
 cd results
 
-git add 
-git commit -m "Finished running the scripts"
+git add --all
+git status
+git commit -m "Finished running the scripts and organize the files"
+
 git remote add origin git@github.com:hellosoni/pracs-sp21-GA2.git
 git branch -M main
 git push -u origin main
