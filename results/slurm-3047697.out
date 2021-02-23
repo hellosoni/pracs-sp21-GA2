@@ -1,15 +1,15 @@
-Tue Feb 23 12:47:28 EST 2021
+Tue Feb 23 13:24:46 EST 2021
 Path to forward read file /fs/ess/PAS1855/users/nghi/week06/pracs-sp21-GA2/data/FASTQ/201-S4-V4-V5_S53_L001_R1_001.fastq
 Output directory /fs/ess/PAS1855/users/nghi/week06/pracs-sp21-GA2/results/trim
 Forward primer GAGTGYCAGCMGCCGCGGTAA
 Reverse primer TTACCGCGGCKGCTGRCACTC
 Reverse read file /fs/ess/PAS1855/users/nghi/week06/pracs-sp21-GA2/data/FASTQ/201-S4-V4-V5_S53_L001_R2_001.fastq
-Trimmed forward read 201-S4-V4-V5_S53_L001_R1_001_trimmed.fastq
-Trimmed reverse read 201-S4-V4-V5_S53_L001_R2_001_trimmed.fastq
+Trimmed forward read /fs/ess/PAS1855/users/nghi/week06/pracs-sp21-GA2/results/trim/201-S4-V4-V5_S53_L001_R1_001_trimmed.fastq
+Trimmed reverse read /fs/ess/PAS1855/users/nghi/week06/pracs-sp21-GA2/results/trim/201-S4-V4-V5_S53_L001_R2_001_trimmed.fastq
 This is cutadapt 3.2 with Python 3.8.8
-Command line parameters: -a GAGTGYCAGCMGCCGCGGTAA...TTACCGCGGCKGCTGRCACTC -A TTACCGCGGCKGCTGRCACTC...GAGTGYCAGCMGCCGCGGTAA --discard-untrimmed --pair-filter=any -o 201-S4-V4-V5_S53_L001_R1_001_trimmed.fastq -p 201-S4-V4-V5_S53_L001_R2_001_trimmed.fastq /fs/ess/PAS1855/users/nghi/week06/pracs-sp21-GA2/data/FASTQ/201-S4-V4-V5_S53_L001_R1_001.fastq /fs/ess/PAS1855/users/nghi/week06/pracs-sp21-GA2/data/FASTQ/201-S4-V4-V5_S53_L001_R2_001.fastq
+Command line parameters: -a GAGTGYCAGCMGCCGCGGTAA...TTACCGCGGCKGCTGRCACTC -A TTACCGCGGCKGCTGRCACTC...GAGTGYCAGCMGCCGCGGTAA --discard-untrimmed --pair-filter=any -o /fs/ess/PAS1855/users/nghi/week06/pracs-sp21-GA2/results/trim/201-S4-V4-V5_S53_L001_R1_001_trimmed.fastq -p /fs/ess/PAS1855/users/nghi/week06/pracs-sp21-GA2/results/trim/201-S4-V4-V5_S53_L001_R2_001_trimmed.fastq /fs/ess/PAS1855/users/nghi/week06/pracs-sp21-GA2/data/FASTQ/201-S4-V4-V5_S53_L001_R1_001.fastq /fs/ess/PAS1855/users/nghi/week06/pracs-sp21-GA2/data/FASTQ/201-S4-V4-V5_S53_L001_R2_001.fastq
 Processing reads on 1 core in paired-end mode ...
-Finished in 2.54 s (54 µs/read; 1.11 M reads/minute).
+Finished in 2.63 s (56 µs/read; 1.08 M reads/minute).
 
 === Summary ===
 

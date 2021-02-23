@@ -69,17 +69,19 @@ git status
  #check in on the job 
  squeue -u $USER
 
-less slurm-3047420.out
+less slurm-3047697.out
 
 
 #check output dir
 ls -lh $output_dir
+ls
 
 cd results
+cp /fs/ess/PAS1855/users/nghi/week06/pracs-sp21-GA2/*.out .
 
 git add --all
-git status
-git commit -m "Finished running the scripts and organize the files"
+
+git commit -m "Last rerun and reorganized output files"
 
 git remote add origin git@github.com:hellosoni/pracs-sp21-GA2.git
 git branch -M main

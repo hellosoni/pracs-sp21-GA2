@@ -4,3 +4,4 @@ output_dir=/fs/ess/PAS1855/users/nghi/week06/pracs-sp21-GA2/results/trim
 primer_f="GAGTGYCAGCMGCCGCGGTAA"
 primer_r="TTACCGCGGCKGCTGRCACTC"
 ./cutadapt_single.sh $R1_in $output_dir $primer_f $primer_r
+

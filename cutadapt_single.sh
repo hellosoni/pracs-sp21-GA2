@@ -33,8 +33,8 @@ R2_in=$(echo $R1_in | sed 's/R1/R2/')
 echo "Reverse read file $R2_in"
 
 #11. Assign output file paths (output dir + file name) for the R1 and R2 output file:
-R1_out=$(basename $output_dir/$R1_in ".fastq")_trimmed.fastq
-R2_out=$(basename $output_dir/$R2_in ".fastq")_trimmed.fastq
+R1_out=$output_dir/$(basename $R1_in ".fastq")_trimmed.fastq
+R2_out=$output_dir/$(basename $R2_in ".fastq")_trimmed.fastq
 echo "Trimmed forward read $R1_out"
 echo "Trimmed reverse read $R2_out"
 
