@@ -60,23 +60,24 @@ git commit -m "Load the Conda module and create a Conda environment for Cutadapt
 git status
 ```
 
-##Cutadapt script for one sample
+##Cutadapt scripts for one sample
 
 ```
 #Execute the script
- chmod u+x cutadapt_single.sh
  sbatch cutadapt_single.sh "$R1_in" "$output_dir" "$primer_f" "$primer_r"
 
  #check in on the job 
  squeue -u $USER
 
-less slurm-3046062.out
+less slurm-3047420.out
 
 
 #check output dir
 ls -lh $output_dir
 
-git add
+cd results
+
+git add 
 git commit -m "Finished running the scripts"
 git remote add origin git@github.com:hellosoni/pracs-sp21-GA2.git
 git branch -M main
