@@ -83,9 +83,11 @@ git add --all
 
 git commit -m "Last rerun and reorganized output files"
 
+#Link remote
 git remote add origin git@github.com:hellosoni/pracs-sp21-GA2.git
 git branch -M main
 git push -u origin main
 
+git push
 
 
